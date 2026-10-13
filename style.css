@@ -1,0 +1,63 @@
+html{
+    background: url(./images/fundo.png) no-repeat center center fixed;
+    background-size: cover;
+}
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: white;
+}
+
+.logo h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin-bottom: 0.2rem;
+}
+
+.logo p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.logo span{
+background-image: linear-gradient(90deg, #36a2fa 22%, #9448fd 60%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#searchInput{
+    width: 400px;
+    padding: 10px;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+#searchButton{
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.774);
+
+}
+
+/* .btnGradient {
+border: 2px solid transparent;
+border-image: linear-gradient(90deg, #36a2fa, #9448fd) 1;
+border-radius: 50px;
+} */
+
+.btnGradient {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  padding: 10px;
+  background:
+    linear-gradient(#0a0a0f, #0a0a0f) padding-box,
+    linear-gradient(135deg, #3624ff 0%, #b358fe 100%) border-box;
+  -webkit-background-clip: padding-box, border-box;
+  background-clip: padding-box, border-box;
+}

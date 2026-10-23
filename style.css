@@ -20,7 +20,7 @@ html{
 
 .logo p{
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .logo span{
@@ -31,9 +31,9 @@ background-clip: text;
 
 #searchInput{
     width: 400px;
-    padding: 10px;
+    padding: 12px 14px;
     font-size: 1.3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 #searchButton{
@@ -43,12 +43,6 @@ background-clip: text;
     color: rgba(255, 255, 255, 0.774);
 
 }
-
-/* .btnGradient {
-border: 2px solid transparent;
-border-image: linear-gradient(90deg, #36a2fa, #9448fd) 1;
-border-radius: 50px;
-} */
 
 .btnGradient {
   color: white;
@@ -60,4 +54,9 @@ border-radius: 50px;
     linear-gradient(135deg, #3624ff 0%, #b358fe 100%) border-box;
   -webkit-background-clip: padding-box, border-box;
   background-clip: padding-box, border-box;
+}
+
+#message {
+    margin-bottom: 20px;
+    color: #d6c8e5;
 }

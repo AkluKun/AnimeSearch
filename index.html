@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
     <title>Anime Search</title>
 </head>
 <body>
-    <main>
+    <main id="particles-js">
         <div class="logo">
             <h1>Anime <span> Search</span></h1>
             <p>Encontre seus personagens favoritos dos animes</p>
         </div>
         
+        <form id="searchForm">
         <input type="text" class="btnGradient" id="searchInput" placeholder="Digite o nome do personagem...">
         <input type="button" class="btnGradient" id="searchButton" value="Buscar">
+        </form>
+        
+        <p id="message" aria-live="polite"></p>
+
         <div class="resultados">
 
         </div>
     </main>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.json"></script>
 </body>
 </html>

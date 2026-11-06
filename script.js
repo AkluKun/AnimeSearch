@@ -156,7 +156,7 @@ async function queryAniList(query, variables) {
 async function fetchAniListCharacters(name) {
     const query = `
         query ($search: String) {
-            Page(page: 1, perPage: 6) {
+            Page(page: 1, perPage: 10) {
                 characters(search: $search, sort: FAVOURITES_DESC) {
                     id
                     name {
@@ -169,7 +169,7 @@ async function fetchAniListCharacters(name) {
                     description(asHtml: false)
                     gender
                     age
-                    media(type: ANIME, perPage: 6, sort: POPULARITY_DESC) {
+                    media(type: ANIME, perPage: 10, sort: POPULARITY_DESC) {
                         nodes {
                             id
                             title {
